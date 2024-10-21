@@ -1,0 +1,364 @@
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../images/logo.png" alt="logo" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#account">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="../images/cart.png" alt="cart image " width="30px" height="30px">
+                <img src="../images/menu.png" class="menu" alt="cart image " width="30px" height="30px" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <h1>Elevate your fitness routine <br> With trendy New Gear!</h1>
+                    <p>Power your performance with our stylish, high-quality workout apparel—made to move with you</p>
+                    <a href="" class="btn">Take a Look &#10162; </a>
+                </div>
+                <div class="col2">
+                    <img src="../images/image1.png" alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- featured categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col3">
+                    <img src="../images/category-1.jpg" alt="category-1">
+                </div>
+                <div class="col3"><img src="../images/category-2.jpg" alt="category-2"></div>
+                <div class="col3"><img src="../images/category-3.jpg" alt="category-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- featured products -->
+    <div class="small-container">
+        <h2 class="product-title">Runway Spotlight<h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../images/product-1.jpg" alt="product-1">
+                        <h4>Scarlet Printed Tee</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p>₹899</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-2.jpg" alt="product-2">
+                        <h4>Men Colourblocked Sneakers</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹1499</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-3.jpg" alt="product-3">
+                        <h4>Men Pleated Trousers</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹559</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-4.jpg" alt="product-4">
+                        <h4>Ess Polo Navy Blue Tee</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p>₹779</p>
+                    </div>
+                </div>
+                <!-- recent trends -->
+                <h2 class="product-title">Recent Trends</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../images/product-5.jpg" alt="product-5">
+                        <h4>
+                            Men Grey High-Top Street Run Casual Shoes</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹2999</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-6.jpg" alt="product-6">
+                        <h4>Tour Tee Men Printed Round Neck Cotton Blend Black T-Shirt</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹999</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-7.jpg" alt="product-7">
+                        <h4>Men Quarter length Pack of 3 Terry Socks</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹339</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-8.jpg" alt="product-8">
+                        <h4>The Minimalist 3H Analog Watch - For Men FS5455</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p>₹2719</p>
+                    </div>
+                </div>
+                <!-- recent trends 2nd row-->
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../images/product-9.jpg" alt="product-9">
+                        <h4>Roadster Watch</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p>₹899</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-10.jpg" alt="product-10">
+                        <h4>HRX Men Core Running Black Shoes</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹1499</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-11.jpg" alt="product-11">
+                        <h4>Roadster Women Running Shoes</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>₹959</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="../images/product-12.jpg" alt="product-12">
+                        <h4>Nike Men Solid Track Pants</h4>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p>₹579</p>
+                    </div>
+
+                </div>
+    </div>
+
+    <!-- offers row -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../images/exclusive.png" alt="offer-1" width="300px">
+                </div>
+                <div class="col-2">
+                    <p>EXCULSIVES !!</p>
+                    <h1>Mi Smart Band 4</h1>
+                    <small>
+                        Mi Smart Band 4: AMOLED display, swim tracker, long battery. <blockquote>
+                            Customize, monitor health, get notified</blockquote>
+                    </small>
+                    <a href="" class="btn">Grab it &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <i class="bi bi-quote"></i>
+                    <p>"High-quality clothes, affordable prices, trendy styles.Really loved all the recently purchased
+                        stuffs from here."</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p class="user-img"> <img src="../images/user-1.png" alt="user-1"></p>
+                    <h3>Natalie Smith</h3>
+                </div>
+                <div class="col-4">
+                    <i class="bi bi-quote"></i>
+                    <p>"I received my order within a few days of placing it. The shipping was fast and reliable, and the
+                        packaging was secure."</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p class="user-img"><img src="../images/user-3.png" alt="user-1"></p>
+                    <h3>Xiun Lee</h3>
+                </div>
+                <div class="col-4">
+                    <i class="bi bi-quote"></i>
+                    <p>"The website was a breeze to use. I could easily find what I was looking for and the product
+                        pages were very informative."</p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+
+                    </div>
+                    <p class="user-img"><img src="../images/user-2.png" alt="user-1"></p>
+                    <h3>Magnus Doppler</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--            BRANDS          -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <a target="_blank" href="https://www.coca-cola.com/in/en"><img src="../images/logo-coca-cola.png" alt="logo-coca-cola"></a>
+                </div>
+                <div class="col-5">
+                    <a target="_blank" href="https://www.realme.com/in/"><img class="realme" alt="realme" src="../images/Realme-Logo-PNG.png" ></a>
+                </div>
+                <div class="col-5">
+                    <a target="_blank" href="https://www.zara.com/in/"><img class="zara" src="../images/Zara_(retailer)-Logo.wine.png" alt="Zara_" width="140px"></a>
+                </div>
+                <div class="col-5">
+                    <a target="_blank" href="https://www.godrejindustries.com/"><img src="../images/logo-godrej.png" alt="logo-godrej"></a>
+                </div>
+                <div class="col-5">
+                    <a target="_blank" href="https://www.paypal.com/in/home"><img class="paypal" src="../images/logo-paypal.png" alt="logo-paypal"></a>
+                 </div>
+                 <div class="col-5">
+                    <a target="_blank" href="https://www.npci.org.in/what-we-do/upi/product-overview"><img src="../images/UPI-Color.png" alt="UPI-Color" class="UPI-Color" width="130px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Install Our App!</h3>
+                    <p class="foot-1" >Get our app and take us with you wherever you go.</p>
+                    <p class="foot-2" >Now in Android & IoS</p>
+                    <div class="app-logo">
+                        <img class="play" src="../images/play-store og.png" alt="play-store" width="40px">
+                        <img class="app" src="../images/app-store og.png" alt="app-store" width="40px">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../images/logo-white.png" alt="logo-white">
+                    <p> <b>RedStore:</b>  Quality clothing, endless possibilities.</p>
+                </div>
+                <div class="footer-col-3">
+                   <h3>Helpful Links</h3>
+                   <ul>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                    <li>Coupons</li>
+                    <li>Return Policy</li>
+                   </ul>
+                </div>
+                <div class="footer-col-4">
+                   <h3>Follow us on</h3>
+                   <ul>
+                    <li>Instagram</li>
+                    <li>LinkedIn</li>
+                    <li>X-Twitter</li>
+                    <li>Youtube</li>
+                   </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 Helixon ©</p>
+        </div>
+     </div>
+
+    <!-- JS FOR TOGGLE MENU -->
+     <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "200px"
+            }
+            else{
+                menuitems.style.maxHeight = "0px"
+            }
+        }
+     </script>
+</body>
+
+</html>
